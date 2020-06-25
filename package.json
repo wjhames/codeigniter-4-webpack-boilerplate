@@ -1,0 +1,29 @@
+{
+  "name": "compose-ci4",
+  "version": "1.0.0",
+  "description": "ComposeCI4",
+  "main": "app/View/assets/js/app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "bootstrap": "*",
+    "jquery": "*",
+    "laravel-mix": "*",
+    "popper.js": "*"
+  },
+  "devDependencies": {
+    "resolve-url-loader": "*",
+    "sass": "*",
+    "sass-loader": "*",
+    "vue-template-compiler": "^*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/webpack --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run build -- --watch"
+  },
+  "keywords": [],
+  "author": "WhiteWhiskey",
+  "license": "MIT"
+}
