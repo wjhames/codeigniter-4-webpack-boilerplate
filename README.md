@@ -11,4 +11,5 @@
 - Watch assets with `npm run watch`
 
 Assets are located in `resources`
+
 Webpack compiles assets to `public/assets`
