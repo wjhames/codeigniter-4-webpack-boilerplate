@@ -7,9 +7,9 @@ class Home extends BaseController
     helper('url');
   }
 
-	public function index()
-	{
-		return view('staticPages/homepage');
-	}
+  public function index()
+  {
+    return view('staticPages/homepage');
+  }
 
 }
