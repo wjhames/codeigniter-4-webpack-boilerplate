@@ -9,6 +9,8 @@
 - Run `npm install`
 - Build assets with `npm run build`
 - Watch assets with `npm run watch`
+- Run the server with `php spark serve`
+- Vist [http://localhost:8080](http://localhost:8080)
 
 Assets are located in `resources`
 
